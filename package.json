@@ -1,0 +1,33 @@
+{
+    "name": "open-loop-logger",
+    "version": "0.0.1",
+    "description": "A node a",
+    "main": "index.js",
+    "repository": "https://github.com/eauwmadison/atlas-points.git",
+    "author": "eeshaan <me@eeshaan.life>",
+    "license": "Unlicense",
+    "scripts": {
+        "start": "node dist/src/index.js",
+        "build": "tsc",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "firebase-admin": "^11.0.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.29.0",
+        "@typescript-eslint/parser": "^5.29.0",
+        "eslint": "^8.18.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "regenerator-runtime": "^0.13.9",
+        "typescript": "^4.7.4"
+    },
+    "peerDependencies": {
+        "@firebase/app-types": "^0.7.0"
+    }
+}
